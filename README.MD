@@ -2,7 +2,7 @@
 ## BD
     * MongoDB Cloud Mongo Atlas
         * Servicio Cloud configurado
-            - Si resulta algun error de conexion seria debido al acceso por IP en el cluster de Atlas, en mi configuracion esta expuesto para aprobar calquier IP.
+            - Si resulta algun error de conexion seria debido al acceso por IP en el cluster de Atlas, en mi configuracion esta expuesto para aprobar cualquier IP.
     * MongoDB Local
 		* Descargamos MongoDB https://www.mongodb.com/try/download/community version 5.0.2
 		* Creamos directorio en C las carpetas data/db en Windows
