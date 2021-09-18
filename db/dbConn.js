@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 import { environment } from '../config/config.js';
 
-let env = process.env.NODE_ENV || "development";
+let env = process.env.NODE_ENV || "production";
 
 let db = await mongoose.connect(environment[env].db, {
     useNewUrlParser: true, 
